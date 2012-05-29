@@ -87,8 +87,6 @@ console.log '---'
 console.log 'New Ratings:'
 console.log '---'
 
-ratingA = 1500
-
 elo.setNewSetings ratingA, ratingB, girlA, girlB
 
 results = elo.getNewRatings()
